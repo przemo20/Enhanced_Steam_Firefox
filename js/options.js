@@ -396,7 +396,7 @@ function load_translation() {
 
 		// When locale files are loaded changed text on page accordingly
 		localization_promise.done(function(){
-			document.title = "Enhanced Steam " + localized_strings.thewordoptions;
+			document.title = "Enhanced Steam – " + localized_strings.thewordoptions.toLowerCase();
 
 			// Source: http://stackoverflow.com/a/24221895
 			function resolveObjPath(obj, path) {
