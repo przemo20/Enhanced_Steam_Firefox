@@ -313,8 +313,17 @@ function load_options() {
 		populate_regional_selects();
 
 		if (!changelog_loaded) {		
-			$.get('changelog.txt', function(data) {
-				$("#changelog_text").after("<textarea rows=28 cols=100 readonly>" + data + "</textarea>");
+			$(function() {
+				$.ajax({
+					url: "changelog.txt",
+					async: false,
+					cache: false,
+					dataType: "text",
+					success: function(data, textStatus, jqXHR) {
+						var resourceContent = data;
+						$("#changelog_text").after("<textarea rows=28 cols=100 readonly>" + data + "</textarea>");
+					}
+				});
 			});
 			changelog_loaded = true;
 		}
