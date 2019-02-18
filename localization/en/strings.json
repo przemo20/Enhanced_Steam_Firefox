@@ -127,8 +127,8 @@
     "notinterested": "Items marked not interested",
     "mixed_item": "Mixed rating items",
     "negative_item": "Negative rating items",
-    "price_above":"Items that cost more than",
-    "price_above_tooltip":"Enter zero for free items or items without price tags; leave this field empty to disable this feature",
+    "price_above": "Items that cost more than",
+    "price_above_tooltip": "Enter zero for free items or items without price tags; leave this field empty to disable this feature",
     "news": "News",
     "check_system": "Check Your System",
     "viewinclient": "View in Steam Client",
@@ -256,7 +256,6 @@
     "user_reviews": "User reviews",
     "review_summary": "__percent__ of the __num__ user reviews for this game are positive.",
     "market_popular_items_toggle": "Toggle live updating for Popular Items",
-    "show_progressbar": "Show Enhanced Steam progress and status bar",
     "achievements": {
         "option": "Show achievement completion on store pages",
         "achievements": "Achievements",
@@ -423,6 +422,7 @@
         "show_badge_progress": "Show apps badge progress on store pages",
         "show_wishlist_link": "Show a Wishlist link on profiles",
         "show_wishlist_count": "Show the number of items on Wishlist",
+        "show_progressbar": "Show Enhanced Steam progress and status bar",
         "lang": {
             "english": "English",
             "brazilian": "Portuguese-Brazil",
