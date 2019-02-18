@@ -6746,7 +6746,7 @@ function add_friends_that_play() {
 
 function add_friends_playtime_sort() {
 	if ($("#memberList").find(".mainSectionHeader").length == 3) { var section = 1; } else { var section = 2; }
-	$("#memberList").find(".mainSectionHeader").eq(section).append(" (<span id='es_default_sort' style='text-decoration: underline; cursor: pointer;'>" + localized_strings.sort_by.replace(":", "") + " " + localized_strings.theworddefault + "</span> | <span id='es_playtime_sort' style='cursor: pointer;'>" + localized_strings.sort_by.replace(":", "") + " Playtime</span>)");
+	$("#memberList").find(".mainSectionHeader").eq(section).append(" (<span id='es_default_sort' style='text-decoration: underline; cursor: pointer;'>" + localized_strings.sort_by.replace(":", "") + " " + localized_strings.theworddefault + "</span> | <span id='es_playtime_sort' style='cursor: pointer;'>" + localized_strings.sort_by.replace(":", "") + " " + localized_strings.playtime</span>)");
 	$("#memberList").children(".profile_friends").eq(section).attr("id", "es_friends_default");
 	var sorted = $("#es_friends_default").clone();
 	$(sorted).attr("id", "es_friends_playtime").hide();
