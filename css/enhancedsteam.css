@@ -469,7 +469,7 @@ input[type=checkbox].es_dlc_selection:checked + label {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,.4);
+	background: rgba(0,0,0,0.4);
 	text-align: center;
 	z-index: 9000;
 }
@@ -828,9 +828,6 @@ input[type=checkbox].es_dlc_selection:checked + label {
 .home_page_body_ctn:not(.has_takeover) #es_customize_btn .home_viewsettings_popup {
 	right: 2px;
 }
-.home_viewsettings_label {
-	text-transform: capitalize;
-}
 
 /***************************************
  * Customize buttons
@@ -870,7 +867,7 @@ input[type=checkbox].es_dlc_selection:checked + label {
 	background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
 	padding: 4px 8px;
 	border: none;
-	color: rgba(255, 255, 255, .8);
+	color: rgba(255, 255, 255, 0.8);
 	border-radius: 2px;
 	cursor: pointer;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
@@ -2128,7 +2125,7 @@ input[type=checkbox].es_dlc_selection:checked + label {
 	background-color: #FF0000;
 }
 #game_area_userscore .logo {
-	background-image: url(/public/images/v6/mc_logo_no_text.png);
+	background-image: url('/public/images/v6/mc_logo_no_text.png');
 	background-repeat: no-repeat;
 	height: 35px;
 	width: 35px;
